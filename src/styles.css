@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+body {
+  font-family: 'Roboto', sans-serif; 
+  background: lightgray;
+  padding: 15px;
+}
+.full-width{
+    width: 100%;
+}
+.mat-toolbar .mat-toolbar-row {
+  position: relative!important;
+}
+
+.menu {
+  position: absolute!important;
+  right: 0!important;
+} 
+.clear{
+    clear: both;
+}
+
+@media only screen and (max-width:960px) {
+    
+}

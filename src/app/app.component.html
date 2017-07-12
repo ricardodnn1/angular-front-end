@@ -1,0 +1,12 @@
+<div id="main">
+  <md-toolbar color="primary">
+    <span>{{title}}</span>
+    <span class="example-spacer"></span>
+    <button md-button class="menu" [mdMenuTriggerFor]="mdMenu"><md-icon>menu</md-icon></button>
+  </md-toolbar>
+  <md-menu #mdMenu="mdMenu">
+      <button md-menu-item routerLink="">Home</button>
+      <button md-menu-item (click)="openDialog()">Novo Post</button>
+  </md-menu>
+  <router-outlet></router-outlet>
+</div>

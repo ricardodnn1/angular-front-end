@@ -1,0 +1,27 @@
+#main {
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+  background: #cccccc;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media(max-width: 1200px) {
+  #main {
+    width: 80%;
+  }
+}
+
+// example-fill-remaining-space {
+//   flex: 1 1 auto;
+// }
+@media only screen and (max-width:960px) {
+  #main {
+    width: 100%;
+  }
+}

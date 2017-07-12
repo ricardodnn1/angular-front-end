@@ -1,0 +1,82 @@
+.row {
+  width: 100%;
+  padding: 50px 15px;
+  md-card {
+    width: 23%;
+    float: left;
+    margin: 30px 8px;
+    padding: 0;
+    position: relative;
+  }
+  md-card-header {
+    position: relative;
+    display: block;
+    padding-left: -10px;
+    width: 100%;
+    min-height: 150px; 
+    margin-top: -24px;
+    margin-bottom: 15px;
+    .mat-card-header-text{
+      display: none;
+    }
+    img {
+      max-width: 100%;
+      vertical-align: middle;
+    }
+  }
+  .mat-card-image:first-child {
+    margin-bottom: 0;
+  }
+  md-card-actions {
+    text-align: right;
+    position: absolute;
+  }
+  .mat-card-actions {
+    padding: 0;
+    bottom: -35px;    
+    right: 30px;
+  }
+  md-card-title {
+    margin-top: 25px;
+    padding: 0 24px;
+  }
+  md-card-content {
+    min-height: 80px; 
+    padding: 5px 24px;
+    .clear {
+      clear: both;
+    }
+  }
+  md-card-footer {
+    margin-top: 18px;
+    padding: 10px 0;
+    vertical-align: center;
+    border-top: 1px solid #eee;
+    p {
+      line-height: 10px;
+    }
+    .mat-card-avatar {
+      margin-left: 20px;
+      margin-right: 10px;
+      float: left;
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .row {
+    width: 100%;
+    md-card {
+      width: 45%;
+      display: block;
+    }
+  }
+}
+@media only screen and (max-width:560px) {
+  .row {
+    width: 100%;
+    md-card {
+      width: 85%;
+      display: block;
+    }
+  }
+}

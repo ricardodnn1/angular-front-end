@@ -1,0 +1,24 @@
+.post-form{
+    width: 600px;
+    margin: 0 auto;
+    #postForm{
+        padding: 30px 0;
+        md-input-container{
+            width: 100%;
+        }
+    }
+    .btn-close{float: right;}
+}
+@media(max-width: 600px){
+    .post-form{
+    width: 100%;
+    margin: 0 auto;
+    #postForm{
+        padding: 30px 0;
+        md-input-container{
+            width: 100%;
+        }
+    }
+    .btn-close{float: none;}
+}
+}
